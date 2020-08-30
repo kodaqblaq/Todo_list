@@ -45,3 +45,28 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
+
+.container:hover
+{
+    cursor: pointer;
+}
+
+
+
+/*added a cursor pointer to each todo */
+.info
+{
+    text-decoration: line-through;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+/*this is the dateinformation css, feel free to edit it */
+.dateinfo
+{
+    margin-left: 10px;
+    font-weight: lighter;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
